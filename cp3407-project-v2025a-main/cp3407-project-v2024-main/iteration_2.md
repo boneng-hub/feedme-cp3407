@@ -1,29 +1,45 @@
 # Actual iteration-2 board, (see chapters 3 and 4), add your start and end dates 
 
-Checklist: 
-1. github entry timestamps
-2. User stories are correct: see p39
+## Checklist
 
-* Assumed Velocity FROM iteration-1: ?? 
-* Number of developers: ??
-* Total estimated amount of work: YY days
+✔ GitHub entry timestamps reviewed  
+✔ User stories follow correct format (see textbook p39)  
+✔ Work distributed across iteration timeline  
 
-User stories or tasks (see chapter 4):
-1. [user story or task title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+Assumed Velocity FROM Iteration-1: 8 days  
+Number of developers: 1  
+Total estimated amount of work: 5 days  
 
-In progress:
-* Task-2 (developer name or initials), date started
-* ...
+---
 
-Completed:
-* Task-3 (developer name or initials), date completed
-* ...
+## User Stories / Tasks
 
-### Burn Down for iteration-2 (see chapter 4):
-Update this at least once per week
-* 4 weeks left, xx days of estimated amount of work 
-* 2 weeks left, xx days
-* 1 weeks left, xx days
-* 0 weeks left, xx days
-* Actual Velocity: ?? 
+1. Track Order Status, priority Medium, 2 days  
+2. Restaurant Menu Management, priority Medium, 2 days  
+3. Rate Restaurants, priority Low, 1 day  
+
+---
+
+# In Progress
+
+- Restaurant Menu Management (BS), started 20 Mar 2026  
+
+---
+
+# Completed
+
+- Track Order Status (BS), completed 15 Mar 2026  
+- Rate Restaurants (BS), completed 17 Mar 2026  
+
+---
+
+# Burn Down for Iteration-2
+
+Week 1 (3 weeks left): 5 days remaining  
+Week 2 (2 weeks left): 3 days remaining  
+Week 3 (1 week left): 0 days remaining  
+Week 4 (0 weeks left): 0 days remaining  
+
+---
+
+Actual Velocity: 5 days completed
