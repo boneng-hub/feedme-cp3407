@@ -33,7 +33,7 @@ Planned technology stack:
 Total: 13 days
 
 
-## Iteration 1 [duration 3-4 weeks], 01 Mar 2026 – 28 Mar 2026
+## Iteration 1 [duration 3 weeks], 16 Feb 2026 – 8 Mar 2026
 
 1. User Registration and Login, priority High, 2 days
 2. Browse Restaurants, priority High, 2 days
@@ -42,13 +42,16 @@ Total: 13 days
 
 Total: 8 days
 
+### Iteration 2 [duration 3 weeks], 9 Mar 2026 – 29 Mar 2026
 
-### Iteration 2 [duration 3-4 weeks], add your start and end dates
-Goal is to have 2 iterations during a trimester of teaching.
-1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+Goal:
+Enhance system functionality and improve user experience.
 
-Total: YY days
+1. Track Order Status, priority Medium, 2 days
+2. Restaurant Menu Management, priority Medium, 2 days
+3. Rate Restaurants, priority Low, 1 day
+
+Total: 5 days
 
 ### Not enough time/developers: 
 1. [user story title](./user_stories/user_story_01_title.md), priority XX, YY days 
