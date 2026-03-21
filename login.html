@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>FeedMe - Login</title>
+    <title>FeedMe Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h2>Login / Register</h2>
-    <form>
-        <label>Username:</label><br>
-        <input type="text"><br><br>
-        <label>Password:</label><br>
-        <input type="password"><br><br>
-        <button type="submit">Login</button>
-    </form>
-    <a href="index.html">Back to Home</a>
+
+<h1>FeedMe Login</h1>
+
+<input id="username" placeholder="Username">
+
+<br><br>
+
+<input id="password" type="password" placeholder="Password">
+
+<br><br>
+
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
