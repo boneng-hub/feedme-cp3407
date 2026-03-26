@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "npm --prefix backend run start",
+    "dev": "npm --prefix backend run dev"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "jsonwebtoken": "^9.0.3",

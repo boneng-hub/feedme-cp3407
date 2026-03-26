@@ -53,20 +53,27 @@ Users can click on a restaurant to view its detailed menu.
 
 # UI Design:
 
-(To be inserted: screenshot of restaurant listing mockup)
+Implemented page: `public/restaurants.html`
 
-Example components:
-- Restaurant card
-- Restaurant name
-- Rating
-- Food category
-- "View Menu" button
+Implemented components:
+- Restaurant list rendered from backend API
+- Clickable list items with clear name/location display
+- Protected page behavior (requires login token)
+- Navigation actions (my orders and logout)
+- Responsive Bootstrap layout for desktop and mobile
 
 ---
 
 # Completed:
 
-(To be updated after implementation)
+Screens/evidence available from current implementation:
 
-- Screenshot of restaurant list page
-- Screenshot of restaurant detail page
+- `backend/server.js`: `/api/restaurants` endpoint returns restaurant list
+- `public/restaurants.html`: dynamic rendering and click-to-menu navigation
+- Restaurant selection stored in localStorage for menu flow
+- Error feedback implemented when API cannot load data
+
+Suggested screenshot list for report:
+- Restaurant list loaded with multiple entries
+- Clicking a restaurant and redirecting to menu page
+- Login guard behavior when token is missing

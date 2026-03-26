@@ -55,19 +55,29 @@ After confirmation, the system saves the order in the database and displays an o
 
 # UI Design:
 
-(To be inserted: screenshot of menu page and cart page mockup)
+Implemented pages:
+- `public/menu.html`
+- `public/my-orders.html`
 
-Example components:
-- Food item card
-- Add to cart button
-- Cart summary section
-- Confirm order button
+Implemented components:
+- Dynamic menu list loaded from selected restaurant
+- Add-to-cart controls and quantity adjustment (`+`, `-`, remove)
+- Cart detail panel with per-item subtotal and total amount
+- Place-order action with confirmation feedback
+- My-orders page showing order history and item details
 
 ---
 
 # Completed:
 
-(To be updated after implementation)
+Screens/evidence available from current implementation:
 
-- Screenshot of cart page
-- Screenshot of successful order confirmation
+- `backend/server.js`: `/api/orders` creates order and inserts `order_items`
+- `backend/server.js`: `/api/my-orders` returns order list with item details
+- `public/menu.html`: cart logic, total calculation, and order submission
+- `public/my-orders.html`: order card rendering with itemized lines
+
+Suggested screenshot list for report:
+- Menu page with selected items in cart panel
+- Successful order creation alert with order ID
+- My-orders page showing newly created order and item details

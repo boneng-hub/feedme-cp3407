@@ -54,23 +54,29 @@ The login system will validate user credentials and redirect users to their dash
 
 # UI Design:
 
-Mockup design for login & registration page.
+Implemented pages:
+- `public/register.html`
+- `public/login.html`
 
-(To be inserted: screenshot of prototype from Figma / NinjaMock)
-
-Example components:
-- Email input field
-- Password input field
-- Register button
-- Login button
-- Error message display
+Implemented components:
+- Username and password input fields with validation
+- Register and Login action buttons
+- Navigation between login, register, and home pages
+- Error/success message area for user feedback
+- Responsive Bootstrap card-based layout
 
 ---
 
 # Completed:
 
-(To be updated after implementation)
+Screens/evidence available from current implementation:
 
-- Screenshot of working registration page
-- Screenshot of successful login
-- Screenshot of validation error messages
+- `backend/server.js`: `/register` and `/login` routes implemented
+- `public/register.js`: registration request handling and feedback
+- `public/script.js`: login request, token storage, and redirect logic
+- `public/login.html` and `public/register.html`: usable responsive UI flow
+
+Suggested screenshot list for report:
+- Registration page with form fields and submit action
+- Successful registration feedback and redirect to login
+- Successful login redirect to restaurant browsing page

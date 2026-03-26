@@ -2,6 +2,8 @@
 
 Duration: 16 Feb 2026 – 8 Mar 2026
 
+Retrospective update: this board is prepared from implemented features, user story files, and repository history.
+
 ---
 
 ## Checklist
@@ -9,6 +11,8 @@ Duration: 16 Feb 2026 – 8 Mar 2026
 ✔ GitHub entry timestamps reviewed  
 ✔ User stories follow correct format (see textbook p39)  
 ✔ Work distributed across iteration timeline  
+✔ Core end-to-end user flow (register -> login -> browse -> order) completed  
+✔ Evidence artifacts prepared (user stories, screenshots placeholders, API routes)  
 
 Assumed Velocity: 6–8 days per iteration  
 Number of developers: 1  
@@ -23,20 +27,30 @@ Total estimated amount of work: 8 days
 3. View Restaurant Menu, priority High, 1 day  
 4. Place Food Order, priority High, 3 days  
 
+Implementation notes (retrospective):
+- Registration and login connected to backend authentication API.
+- Restaurant list and menu browsing connected to database-backed endpoints.
+- Cart, order creation, and my-orders foundation completed.
+
 ---
 
 # In Progress
 
-- Place Food Order (BS), started 25 Feb 2026  
+- Integration polishing and UI consistency updates (BS), started 25 Feb 2026  
 
 ---
 
 # Completed
 
-- User Registration and Login (BS), completed 20 Feb 2026  
-- Browse Restaurants (BS), completed 22 Feb 2026  
-- View Restaurant Menu (BS), completed 24 Feb 2026  
-- Place Food Order (BS), completed 5 Mar 2026  
+- User Registration and Login (BS), completed in iteration window  
+- Browse Restaurants (BS), completed in iteration window  
+- View Restaurant Menu (BS), completed in iteration window  
+- Place Food Order (BS), completed in iteration window  
+
+Evidence summary:
+- Frontend pages implemented for login, register, restaurants, menu, and order flow.
+- Backend routes implemented for authentication, restaurants, menu query, and order creation.
+- User stories documented under user_stories/ with matching iteration scope.
 
 ---
 

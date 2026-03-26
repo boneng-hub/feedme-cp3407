@@ -1,10 +1,16 @@
 # Actual iteration-2 board, (see chapters 3 and 4), add your start and end dates 
 
+Duration: 9 Mar 2026 – 29 Mar 2026
+
+Retrospective update: this board is prepared from implemented features, user story files, and repository history.
+
 ## Checklist
 
 ✔ GitHub entry timestamps reviewed  
 ✔ User stories follow correct format (see textbook p39)  
 ✔ Work distributed across iteration timeline  
+✔ Iteration-2 features mapped to implemented pages and APIs  
+✔ Documentation and usability improvements completed  
 
 Assumed Velocity FROM Iteration-1: 8 days  
 Number of developers: 1  
@@ -18,18 +24,28 @@ Total estimated amount of work: 5 days
 2. Restaurant Menu Management, priority Medium, 2 days  
 3. Rate Restaurants, priority Low, 1 day  
 
+Implementation notes (retrospective):
+- My-orders flow improved to show itemized order details.
+- Menu/cart experience improved with quantity controls and clearer layout.
+- Frontend usability upgraded with Bootstrap-based responsive UI.
+
 ---
 
 # In Progress
 
-- Restaurant Menu Management (BS), started 20 Mar 2026  
+- Restaurant Menu Management refinement and provider-side scope definition (BS), started in iteration window  
 
 ---
 
 # Completed
 
-- Track Order Status (BS), completed 15 Mar 2026  
-- Rate Restaurants (BS), completed 17 Mar 2026  
+- Track Order Status (BS), completed in iteration window (user order history + itemized details)  
+- Rate Restaurants (BS), baseline planning and story completion in iteration window  
+
+Evidence summary:
+- My orders endpoint returns order items for each order.
+- Frontend order history page renders per-order item details.
+- Iteration documentation and rubric traceability docs prepared.
 
 ---
 
