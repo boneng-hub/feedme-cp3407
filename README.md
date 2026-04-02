@@ -23,6 +23,35 @@ Backend supports environment-based configuration for cloud readiness.
 Optional (production-like run with process manager):
 	- npm --prefix backend run start:pm2
 
+## Fresh Clone Quick Start (for marker/demo)
+
+If someone downloads this repository from GitHub on a new machine, follow these steps.
+
+1. Install prerequisites:
+	- Node.js 18+ and npm
+	- MySQL 8+
+
+2. Initialize database (from repository root):
+	- mysql -u root -p < feedme_utf8.sql
+
+3. Create backend environment file:
+	- cp backend/.env.example backend/.env
+	- Update DB_HOST, DB_USER, DB_PASSWORD, DB_NAME if needed
+	- Set a strong JWT_SECRET value
+
+4. Install and run:
+	- npm install
+	- npm --prefix backend install
+	- npm --prefix backend run start
+
+5. Verify:
+	- Open http://localhost:3000/index.html
+	- Check health API: http://localhost:3000/api/health
+
+Windows note:
+1. If `cp` is unavailable in PowerShell, use:
+	- Copy-Item backend/.env.example backend/.env
+
 ## Course-Driven Requirements
 
 This repository is organized to satisfy both implementation and assessment expectations:
