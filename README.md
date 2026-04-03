@@ -111,7 +111,10 @@ Iteration boards, user stories, and submission checklist are maintained for evid
 5. [HD Submission Checklist](./user_stories/assessment_checklist_hd.md)
 6. [AWS Deployment Plan](./user_stories/aws_deployment_plan.md)
 7. [Deployment and Presentation Guide](./user_stories/deployment_and_presentation_guide.md)
-8. [Final Submission Checklist](./user_stories/final_submission_checklist.md)
+8. [AI Prompts and Tool Log](./user_stories/ai_prompts_and_tool_log.md)
+9. [Testing Evidence](./user_stories/testing_evidence.md)
+10. [Cloud Evidence Log](./user_stories/cloud_evidence_log.md)
+11. [Final Submission Checklist](./user_stories/final_submission_checklist.md)
 
 ## Next Improvements
 

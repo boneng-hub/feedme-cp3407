@@ -9,7 +9,7 @@ const express = require("express");
 const cors = require("cors");
 
 const PORT = Number(process.env.PORT) || 3000;
-const JWT_SECRET = process.env.JWT_SECRET || "feedme_super_secret_key";
+const JWT_SECRET = process.env.JWT_SECRET;
 
 const DB_HOST = process.env.DB_HOST || "localhost";
 const DB_USER = process.env.DB_USER || "root";
@@ -18,8 +18,9 @@ const DB_NAME = process.env.DB_NAME || "feedme";
 const DB_CONN_LIMIT = Number(process.env.DB_CONN_LIMIT) || 10;
 const CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
 
-if (JWT_SECRET === "feedme_super_secret_key") {
-    console.warn("Warning: using default JWT secret. Set JWT_SECRET in production.");
+if (!JWT_SECRET || JWT_SECRET === "replace_with_a_strong_secret" || JWT_SECRET === "feedme_super_secret_key") {
+    console.error("Error: JWT_SECRET must be set to a strong value in backend/.env.");
+    process.exit(1);
 }
 
 // Create a database connection pool

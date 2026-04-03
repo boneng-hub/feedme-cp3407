@@ -9,6 +9,9 @@ This file provides a quick index of user story documents and assessment evidence
 - [Demo Runbook](./user_stories/demo_runbook.md)
 - [AWS Deployment Plan](./user_stories/aws_deployment_plan.md)
 - [Deployment and Presentation Guide](./user_stories/deployment_and_presentation_guide.md)
+- [AI Prompts and Tool Log](./user_stories/ai_prompts_and_tool_log.md)
+- [Testing Evidence](./user_stories/testing_evidence.md)
+- [Cloud Evidence Log](./user_stories/cloud_evidence_log.md)
 - [Final Submission Checklist](./user_stories/final_submission_checklist.md)
 
 ### Iteration 1
